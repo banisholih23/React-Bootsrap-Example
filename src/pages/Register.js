@@ -43,6 +43,7 @@ export default class Register extends Component {
       <>
         <div className="d-flex justify-content-center align-items-center mt-5 content">
           <Jumbotron>
+            <h3 className='mb-4'>Welcome! <br></br> Please Regist Dude</h3>
             <Form onSubmit={this.onRegist}>
               <FormGroup>
                 <Label for="exampleEmail">Username</Label>

@@ -41,6 +41,7 @@ export default class Login extends Component {
       <>
         <div className="d-flex justify-content-center align-items-center mt-5 content">
           <Jumbotron>
+          <h3 className='mb-4'>Welcome! <br></br> Please Login Dude</h3>
             <Form onSubmit={this.onLogin}>
               <FormGroup>
                 <Label for="exampleEmail">Email</Label>
